@@ -1,0 +1,47 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+#tudo {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    height: 110px;
+}
+
+#logo {
+    float: left;
+    margin-top: 15px;
+}
+
+nav ul {
+    float: right;
+    margin-top: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+
+nav ul li a {
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+nav ul li a:hover {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+nav ul li a.orcamento {
+    background: #d82a62;
+    border-radius: 10px;
+}
