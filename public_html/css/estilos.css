@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    height: 110px;
+    height: 90px;
 }
 
 #logo {
@@ -78,4 +78,38 @@ nav ul li a.orcamento {
     text-decoration: none;
     font-weight: bold;
     padding: 5px 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#sobre {
+    background: #fff;
+    color: #333;
+    font-family: 'Helvetica';
+    text-align: center;
+    padding-top: 20px;
+}
+
+#sobre h1 {
+    font-size: 50px;
+}
+
+#sobre p {
+    font-size: 30px;
+}
+
+.servicos {
+    width: 240px;
+    float: left;
+}
+
+#sobre .servicos p {
+    font-size: 20px;
+}
+
+#centraliza {
+    width: 1170px;
+    margin: 0 auto;
 }
